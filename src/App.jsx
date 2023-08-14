@@ -2,6 +2,7 @@
 
 import './App.css';
 import NavBar from './Compunents/NavBar';
+import AddDental from './Pages/AddDental';
 import BasicInfo from './Pages/BasicInfo';
 import Dashboard from './Pages/Dashboard';
 import Dental1 from './Pages/Dental1';
@@ -27,6 +28,7 @@ function App() {
       <Router>
       <NavBar/>
       <Dental1/>
+      {/* <AddDental/> */}
         <div>
       
           <Routes>

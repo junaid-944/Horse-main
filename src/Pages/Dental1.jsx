@@ -4,10 +4,9 @@ import Sidebar from '../Compunents/Sidebar';
 
 const Dental1 = () => {
   return (
-    
-    <div className='px-4'>
+    <div>
+    <div className='px-4'>   
      
-  
       {Dental.map((item) => (
         <div key={item.text}>
      <div className='flex'>       
@@ -23,7 +22,7 @@ const Dental1 = () => {
             className="w-[380px] h-[45px] bg-[#F4F6F9] rounded-full px-2 "
           />
           <div className='flex pt-6'>
-            <img src={item.img} alt={item.text} />
+            <img src={item.img} alt={item.text} className='w-[60px] h-[60px]' />
             <div>
               <p className='pt-4 px-2 font-[Quicksand] text-[15px] '>{item.text}</p>
               <p>{item.text1}</p>
@@ -34,7 +33,7 @@ const Dental1 = () => {
           <div>
             {Dental2.map((subItem) => (
               <div key={subItem.text} className='flex pt-4'>
-                <img src={subItem.img} alt={subItem.text} />
+                <img src={subItem.img} alt={subItem.text} className='w-[60px] h-[60px]' />
                 <div>
                   <p className='pt-4 px-2 font-[Quicksand] text-[15px] '>{subItem.text}</p>
                   <p>{subItem.text1}</p>
@@ -45,7 +44,7 @@ const Dental1 = () => {
             <hr/>
             {Dental3.map((subItem) => (
               <div key={subItem.text} className='flex pt-4'>
-                <img src={subItem.img} alt={subItem.text} />
+                <img src={subItem.img} alt={subItem.text} className='w-[60px] h-[60px]' />
                 <div>
                   <p className='pt-4 px-2 font-[Quicksand] text-[15px] '>{subItem.text}</p>
                   <p>{subItem.text1}</p>
@@ -60,6 +59,7 @@ const Dental1 = () => {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 };
