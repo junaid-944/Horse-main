@@ -3,6 +3,8 @@
 import './App.css';
 import NavBar from './Compunents/NavBar';
 import AddDental from './Pages/AddDental';
+import AddDewarming1 from './Pages/AddDewarming1';
+import AddDewarming2 from './Pages/AddDewarming2';
 import BasicInfo from './Pages/BasicInfo';
 import Dashboard from './Pages/Dashboard';
 import Dental1 from './Pages/Dental1';
@@ -27,8 +29,10 @@ function App() {
   
       <Router>
       <NavBar/>
+      {/* <AddDewarming1/> */}
+      <AddDewarming2/>
       {/* <Dental1/> */}
-      <AddDental/>
+      {/* <AddDental/> */}
         <div>
       
           <Routes>

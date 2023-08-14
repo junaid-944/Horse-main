@@ -3,7 +3,7 @@ import React from "react";
 const AddDental = () => {
   return (
     <div className="px-4 ">
-    <h1 className="flex justify-center pr-24">ADD DENTAL</h1>
+    <h1 className="flex justify-center pr-24">ADD DEWARMING</h1>
       <h1>Add Details</h1>
       <form className="">
         <div className="w-full flex justify-between">
