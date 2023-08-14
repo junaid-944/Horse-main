@@ -27,8 +27,8 @@ function App() {
   
       <Router>
       <NavBar/>
-      <Dental1/>
-      {/* <AddDental/> */}
+      {/* <Dental1/> */}
+      <AddDental/>
         <div>
       
           <Routes>
